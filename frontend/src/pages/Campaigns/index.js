@@ -205,8 +205,8 @@ const Campaigns = () => {
 
   const formatStatus = (val) => {
     switch (val) {
-      case "INATIVA":
-        return "Inativa";
+      case "INACTIVA":
+        return "Inactiva";
       case "PROGRAMADA":
         return "Programada";
       case "EM_ANDAMENTO":
