@@ -148,7 +148,7 @@ const CampaignsConfig = () => {
                   name="messageInterval"
                   id="messageInterval"
                   labelId="messageInterval-label"
-                  label="Intervalo Randômico de Disparo"
+                  label="Intervalo aletorio de Disparo"
                   value={settings.messageInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
@@ -167,21 +167,21 @@ const CampaignsConfig = () => {
                 fullWidth
               >
                 <InputLabel id="longerIntervalAfter-label">
-                  Intervalo Maior Após
+                  Intervalo más largo después
                 </InputLabel>
                 <Select
                   name="longerIntervalAfter"
                   id="longerIntervalAfter"
                   labelId="longerIntervalAfter-label"
-                  label="Intervalo Maior Após"
+                  label="Intervalo más largo después"
                   value={settings.longerIntervalAfter}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
                   <MenuItem value={0}>No definido</MenuItem>
-                  <MenuItem value={5}>5 mensagens</MenuItem>
-                  <MenuItem value={10}>10 mensagens</MenuItem>
-                  <MenuItem value={15}>15 mensagens</MenuItem>
-                  <MenuItem value={20}>20 mensagens</MenuItem>
+                  <MenuItem value={5}>5 mensages</MenuItem>
+                  <MenuItem value={10}>10 mensages</MenuItem>
+                  <MenuItem value={15}>15 mensages</MenuItem>
+                  <MenuItem value={20}>20 mensages</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
@@ -192,13 +192,13 @@ const CampaignsConfig = () => {
                 fullWidth
               >
                 <InputLabel id="greaterInterval-label">
-                  Intervalo de Disparo Maior
+                  Intervalo de Disparo Mayor
                 </InputLabel>
                 <Select
                   name="greaterInterval"
                   id="greaterInterval"
                   labelId="greaterInterval-label"
-                  label="Intervalo de Disparo Maior"
+                  label="Intervalo de Disparo Mayor"
                   value={settings.greaterInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
@@ -231,7 +231,7 @@ const CampaignsConfig = () => {
               <>
                 <Grid xs={12} md={6} item>
                   <TextField
-                    label="Atalho"
+                    label="Atajo"
                     variant="outlined"
                     value={variable.key}
                     name="key"
@@ -241,7 +241,7 @@ const CampaignsConfig = () => {
                 </Grid>
                 <Grid xs={12} md={6} item>
                   <TextField
-                    label="Conteúdo"
+                    label="Contenido"
                     variant="outlined"
                     value={variable.value}
                     name="value"
@@ -273,8 +273,8 @@ const CampaignsConfig = () => {
                   <TableHead>
                     <TableRow>
                       <TableCell style={{ width: "1%" }}></TableCell>
-                      <TableCell>Atalho</TableCell>
-                      <TableCell>Conteúdo</TableCell>
+                      <TableCell>Atajo</TableCell>
+                      <TableCell>Contenido</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
