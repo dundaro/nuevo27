@@ -275,7 +275,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
 
     const onCompanyAuthLayout = (data) => {
       if (data.user.id === +userId) {
-        toastError("Sua conta foi acessada em outro computador.");
+        toastError("Han accedido a su cuenta desde otro copmutador.");
         setTimeout(() => {
           localStorage.clear();
           window.location.reload();
@@ -414,11 +414,11 @@ const LoggedInLayout = ({ children, themeToggle }) => {
           >
              {greaterThenSm && user?.profile === "admin" && user?.company?.dueDate ? (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo a <b>{user?.company?.name}</b>! (Ativo até {dateToClient(user?.company?.dueDate)})
+                Hola <b>{user.name}</b>, sea bienvenido a <b>{user?.company?.name}</b>! (Activo até {dateToClient(user?.company?.dueDate)})
               </>
             ) : (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo a <b>{user?.company?.name}</b>!
+                HOla <b>{user.name}</b>, sea bienvenido a <b>{user?.company?.name}</b>!
               </>
             )}
           </Typography>
