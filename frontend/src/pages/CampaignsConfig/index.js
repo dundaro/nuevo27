@@ -152,7 +152,7 @@ const CampaignsConfig = () => {
                   value={settings.messageInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
-                  <MenuItem value={0}>Sem Intervalo</MenuItem>
+                  <MenuItem value={0}>Sin Intervalo</MenuItem>
                   <MenuItem value={5}>5 segundos</MenuItem>
                   <MenuItem value={10}>10 segundos</MenuItem>
                   <MenuItem value={15}>15 segundos</MenuItem>
@@ -177,7 +177,7 @@ const CampaignsConfig = () => {
                   value={settings.longerIntervalAfter}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
-                  <MenuItem value={0}>Não definido</MenuItem>
+                  <MenuItem value={0}>No definido</MenuItem>
                   <MenuItem value={5}>5 mensagens</MenuItem>
                   <MenuItem value={10}>10 mensagens</MenuItem>
                   <MenuItem value={15}>15 mensagens</MenuItem>
@@ -202,7 +202,7 @@ const CampaignsConfig = () => {
                   value={settings.greaterInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
-                  <MenuItem value={0}>Sem Intervalo</MenuItem>
+                  <MenuItem value={0}>Sin Intervalo</MenuItem>
                   <MenuItem value={20}>20 segundos</MenuItem>
                   <MenuItem value={30}>30 segundos</MenuItem>
                   <MenuItem value={40}>40 segundos</MenuItem>
